@@ -7,11 +7,30 @@ using System.Threading.Tasks;
 namespace TrackerLibrary
 {
     public class TournamentModel
-    {
+    {   
+        /// <summary>
+        /// Sets the tournament name.
+        /// </summary>
         public string TournamentName { get; set; }
+
+        /// <summary>
+        /// Sets the entry fee.
+        /// </summary>
         public decimal EntryFee { get; set; }
+
+        /// <summary>
+        /// Creates a list of the enteres teams in the GUI.
+        /// </summary>
         public List<TeamModel> EnteredTeams { get; set; } = new List<TeamModel>();
+
+        /// <summary>
+        ///  Creates a list of different prizes.
+        /// </summary>
         public List<PrizeModel> Prizes { get; set; } = new List<PrizeModel>();
+
+        /// <summary>
+        /// Creates a list of rounds.
+        /// </summary>
         public List<List<MatchupModel>> Rounds { get; set; } = new List<List<MatchupModel>>();
     }
 }
