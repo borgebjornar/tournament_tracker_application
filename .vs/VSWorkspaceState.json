@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TournamentTracker",
+    "\\TournamentTracker\\TrackerLibrary",
+    "\\TournamentTracker\\TrackerUI"
+  ],
+  "SelectedNode": "\\TournamentTracker\\TrackerUI\\CreateTeamForm.Designer.cs",
+  "PreviewInSolutionExplorer": false
+}
