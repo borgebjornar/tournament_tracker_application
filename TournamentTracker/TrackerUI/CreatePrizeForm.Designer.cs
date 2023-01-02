@@ -49,14 +49,14 @@
             this.createPrizeHeader.ForeColor = System.Drawing.SystemColors.WindowText;
             this.createPrizeHeader.Location = new System.Drawing.Point(44, 34);
             this.createPrizeHeader.Name = "createPrizeHeader";
-            this.createPrizeHeader.Size = new System.Drawing.Size(274, 60);
+            this.createPrizeHeader.Size = new System.Drawing.Size(266, 59);
             this.createPrizeHeader.TabIndex = 12;
             this.createPrizeHeader.Text = "Create Prize";
             // 
             // placeNumberValue
             // 
             this.placeNumberValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.placeNumberValue.Location = new System.Drawing.Point(285, 120);
+            this.placeNumberValue.Location = new System.Drawing.Point(305, 120);
             this.placeNumberValue.Name = "placeNumberValue";
             this.placeNumberValue.Size = new System.Drawing.Size(284, 47);
             this.placeNumberValue.TabIndex = 25;
@@ -74,7 +74,7 @@
             // placeNameValue
             // 
             this.placeNameValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.placeNameValue.Location = new System.Drawing.Point(285, 198);
+            this.placeNameValue.Location = new System.Drawing.Point(305, 198);
             this.placeNameValue.Name = "placeNameValue";
             this.placeNameValue.Size = new System.Drawing.Size(284, 47);
             this.placeNameValue.TabIndex = 27;
@@ -92,10 +92,11 @@
             // prizeAmountValue
             // 
             this.prizeAmountValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.prizeAmountValue.Location = new System.Drawing.Point(285, 276);
+            this.prizeAmountValue.Location = new System.Drawing.Point(305, 276);
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(284, 47);
             this.prizeAmountValue.TabIndex = 29;
+            this.prizeAmountValue.Text = "0";
             // 
             // prizeAmountLabel
             // 
@@ -110,10 +111,11 @@
             // pricePercentageValue
             // 
             this.pricePercentageValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.pricePercentageValue.Location = new System.Drawing.Point(285, 464);
+            this.pricePercentageValue.Location = new System.Drawing.Point(305, 464);
             this.pricePercentageValue.Name = "pricePercentageValue";
             this.pricePercentageValue.Size = new System.Drawing.Size(284, 47);
             this.pricePercentageValue.TabIndex = 31;
+            this.pricePercentageValue.Text = "0";
             // 
             // prizePercentageLabel
             // 
@@ -148,13 +150,14 @@
             this.createPrizeButton.TabIndex = 33;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // CreatePrizeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(636, 710);
+            this.ClientSize = new System.Drawing.Size(642, 729);
             this.Controls.Add(this.createPrizeButton);
             this.Controls.Add(this.orLabel);
             this.Controls.Add(this.pricePercentageValue);
@@ -168,7 +171,7 @@
             this.Controls.Add(this.createPrizeHeader);
             this.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "CreatePrizeForm";
             this.Text = "Create Prize";
             this.ResumeLayout(false);
