@@ -49,13 +49,21 @@
               "target": "Package",
               "version": "[2.0.123, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[5.1.0-preview2.22314.2, )"
+            },
+            "Microsoft.Data.SqlClient.SNI.runtime": {
+              "target": "Package",
+              "version": "[5.1.0-preview2.22311.2, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [

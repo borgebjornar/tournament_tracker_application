@@ -30,10 +30,8 @@ namespace TrackerUI
                     prizeAmountValue.Text, 
                     pricePercentageValue.Text);
 
-                foreach (IDataConnection db in GlobalConfig.Connections)
-                {
-                    db.CreatePrize(model);
-                }
+                GlobalConfig.Connection.CreatePrize(model);
+
                 // Clear the form when the button is pressed.
                 placeNameValue.Text = "";
                 placeNumberValue.Text = "";
