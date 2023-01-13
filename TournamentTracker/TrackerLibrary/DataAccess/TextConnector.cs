@@ -34,6 +34,11 @@ namespace TrackerLibrary.DataAccess
             return model;
         }
 
+        public List<PersonModel> GetPerson_All()
+        {
+            return PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
+        }
+
         // TODO: Wire up the CreatePrize for text files.
         public PrizeModel CreatePrize(PrizeModel model)
         {
