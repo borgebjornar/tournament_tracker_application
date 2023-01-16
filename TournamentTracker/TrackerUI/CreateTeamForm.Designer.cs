@@ -56,7 +56,7 @@
             this.teamNameValue.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.teamNameValue.Location = new System.Drawing.Point(24, 136);
             this.teamNameValue.Name = "teamNameValue";
-            this.teamNameValue.Size = new System.Drawing.Size(357, 33);
+            this.teamNameValue.Size = new System.Drawing.Size(357, 39);
             this.teamNameValue.TabIndex = 13;
             // 
             // teamNameLabel
@@ -65,7 +65,7 @@
             this.teamNameLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.teamNameLabel.Location = new System.Drawing.Point(24, 108);
             this.teamNameLabel.Name = "teamNameLabel";
-            this.teamNameLabel.Size = new System.Drawing.Size(111, 25);
+            this.teamNameLabel.Size = new System.Drawing.Size(142, 32);
             this.teamNameLabel.TabIndex = 12;
             this.teamNameLabel.Text = "Team Name";
             // 
@@ -76,7 +76,7 @@
             this.createTeamHeader.ForeColor = System.Drawing.SystemColors.WindowText;
             this.createTeamHeader.Location = new System.Drawing.Point(24, 26);
             this.createTeamHeader.Name = "createTeamHeader";
-            this.createTeamHeader.Size = new System.Drawing.Size(225, 47);
+            this.createTeamHeader.Size = new System.Drawing.Size(273, 59);
             this.createTeamHeader.TabIndex = 11;
             this.createTeamHeader.Text = "Create Team";
             // 
@@ -101,7 +101,7 @@
             this.selectTeamMemberDropDown.FormattingEnabled = true;
             this.selectTeamMemberDropDown.Location = new System.Drawing.Point(24, 213);
             this.selectTeamMemberDropDown.Name = "selectTeamMemberDropDown";
-            this.selectTeamMemberDropDown.Size = new System.Drawing.Size(357, 33);
+            this.selectTeamMemberDropDown.Size = new System.Drawing.Size(357, 40);
             this.selectTeamMemberDropDown.TabIndex = 18;
             // 
             // selectTeamMemberLabel
@@ -110,7 +110,7 @@
             this.selectTeamMemberLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.selectTeamMemberLabel.Location = new System.Drawing.Point(24, 185);
             this.selectTeamMemberLabel.Name = "selectTeamMemberLabel";
-            this.selectTeamMemberLabel.Size = new System.Drawing.Size(187, 25);
+            this.selectTeamMemberLabel.Size = new System.Drawing.Size(240, 32);
             this.selectTeamMemberLabel.TabIndex = 17;
             this.selectTeamMemberLabel.Text = "Select Team Member";
             // 
@@ -153,7 +153,7 @@
             this.cellphoneValue.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cellphoneValue.Location = new System.Drawing.Point(164, 218);
             this.cellphoneValue.Name = "cellphoneValue";
-            this.cellphoneValue.Size = new System.Drawing.Size(193, 33);
+            this.cellphoneValue.Size = new System.Drawing.Size(193, 39);
             this.cellphoneValue.TabIndex = 29;
             // 
             // cellphoneLabel
@@ -162,7 +162,7 @@
             this.cellphoneLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cellphoneLabel.Location = new System.Drawing.Point(26, 218);
             this.cellphoneLabel.Name = "cellphoneLabel";
-            this.cellphoneLabel.Size = new System.Drawing.Size(98, 25);
+            this.cellphoneLabel.Size = new System.Drawing.Size(123, 32);
             this.cellphoneLabel.TabIndex = 28;
             this.cellphoneLabel.Text = "Cellphone";
             // 
@@ -171,7 +171,7 @@
             this.emailValue.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.emailValue.Location = new System.Drawing.Point(164, 165);
             this.emailValue.Name = "emailValue";
-            this.emailValue.Size = new System.Drawing.Size(193, 33);
+            this.emailValue.Size = new System.Drawing.Size(193, 39);
             this.emailValue.TabIndex = 27;
             // 
             // emailLabel
@@ -180,7 +180,7 @@
             this.emailLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.emailLabel.Location = new System.Drawing.Point(26, 165);
             this.emailLabel.Name = "emailLabel";
-            this.emailLabel.Size = new System.Drawing.Size(58, 25);
+            this.emailLabel.Size = new System.Drawing.Size(71, 32);
             this.emailLabel.TabIndex = 26;
             this.emailLabel.Text = "Email";
             // 
@@ -189,7 +189,7 @@
             this.lastNameValue.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lastNameValue.Location = new System.Drawing.Point(164, 108);
             this.lastNameValue.Name = "lastNameValue";
-            this.lastNameValue.Size = new System.Drawing.Size(193, 33);
+            this.lastNameValue.Size = new System.Drawing.Size(193, 39);
             this.lastNameValue.TabIndex = 25;
             // 
             // lastNameLabel
@@ -198,7 +198,7 @@
             this.lastNameLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lastNameLabel.Location = new System.Drawing.Point(24, 111);
             this.lastNameLabel.Name = "lastNameLabel";
-            this.lastNameLabel.Size = new System.Drawing.Size(100, 25);
+            this.lastNameLabel.Size = new System.Drawing.Size(126, 32);
             this.lastNameLabel.TabIndex = 24;
             this.lastNameLabel.Text = "Last Name";
             // 
@@ -207,7 +207,7 @@
             this.firstNameValue.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.firstNameValue.Location = new System.Drawing.Point(164, 52);
             this.firstNameValue.Name = "firstNameValue";
-            this.firstNameValue.Size = new System.Drawing.Size(193, 33);
+            this.firstNameValue.Size = new System.Drawing.Size(193, 39);
             this.firstNameValue.TabIndex = 23;
             // 
             // firstNameLabel
@@ -216,7 +216,7 @@
             this.firstNameLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.firstNameLabel.Location = new System.Drawing.Point(22, 55);
             this.firstNameLabel.Name = "firstNameLabel";
-            this.firstNameLabel.Size = new System.Drawing.Size(102, 25);
+            this.firstNameLabel.Size = new System.Drawing.Size(129, 32);
             this.firstNameLabel.TabIndex = 22;
             this.firstNameLabel.Text = "First Name";
             // 
@@ -224,10 +224,10 @@
             // 
             this.teamMembersListBox.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.teamMembersListBox.FormattingEnabled = true;
-            this.teamMembersListBox.ItemHeight = 25;
+            this.teamMembersListBox.ItemHeight = 32;
             this.teamMembersListBox.Location = new System.Drawing.Point(436, 108);
             this.teamMembersListBox.Name = "teamMembersListBox";
-            this.teamMembersListBox.Size = new System.Drawing.Size(331, 579);
+            this.teamMembersListBox.Size = new System.Drawing.Size(331, 548);
             this.teamMembersListBox.TabIndex = 23;
             // 
             // removeSelectedMemberButton
@@ -258,10 +258,11 @@
             this.createTeamButton.TabIndex = 25;
             this.createTeamButton.Text = "Create Team";
             this.createTeamButton.UseVisualStyleBackColor = true;
+            this.createTeamButton.Click += new System.EventHandler(this.createTeamButton_Click);
             // 
             // CreateTeamForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(934, 783);
