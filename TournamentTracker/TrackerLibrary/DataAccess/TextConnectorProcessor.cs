@@ -34,6 +34,7 @@ namespace TrackerLibrary.DataAccess.TextHelpers
             return File.ReadAllLines(file).ToList();
         }
 
+        // Find the ID.
         public static List<PrizeModel> ConvertToPrizeModel(this List<string> lines)
         {
             List<PrizeModel> output = new List<PrizeModel>();
@@ -55,6 +56,37 @@ namespace TrackerLibrary.DataAccess.TextHelpers
             return output;
         }
 
+        // Convert the prizes to list<string>.
+        public static List<TeamModel> ConvertToTeamModels(this List<string> lines, string peopleFileName)
+        {
+            // id, team name, list of ids separated by the pipe
+            // 3, Tim's Team, 1|3|5
+
+            List<TeamModel> output = new List<TeamModel>();
+            List<PersonModel> people = peopleFileName.FullFilePath().LoadFile().ConvertToPersonModels();
+
+            foreach (string line in lines)
+            {
+                string[] cols = line.Split(',');
+
+                TeamModel t = new TeamModel();
+                t.Id = int.Parse(cols[0]);
+                t.TeamName = cols[1];
+
+                string[] personIds = cols[2].Split('|');
+
+                foreach (string id in personIds)
+                {
+                    t.TeamMembers.Add(people.Where(x => x.Id == int.Parse(id)).First());
+                }
+
+                output.Add(t);
+            }
+
+            return output;
+        }
+
+        // Save the list<string> to the text file.
         public static List<PersonModel> ConvertToPersonModels(this List<string> lines)
         {
             List<PersonModel> output = new List<PersonModel>();
@@ -99,5 +131,38 @@ namespace TrackerLibrary.DataAccess.TextHelpers
 
             File.WriteAllLines(fileName.FullFilePath(), lines);
         }
-    } 
-} 
+
+        public static void SaveToTeamFile(this List<TeamModel> models, string fileName)
+        {
+            List<string> lines = new List<string>();
+
+            foreach (TeamModel t in models)
+            {
+                lines.Add($"{t.Id},{t.TeamName},{ConvertPeopleListToString(t.TeamMembers)}");
+            }
+            // Write the list<string> to the text file.
+            File.WriteAllLines(fileName.FullFilePath(), lines);
+        }
+
+        // Convert the prizes to list<string>.
+        private static string ConvertPeopleListToString(List<PersonModel> people)
+        {
+            string output = "";
+
+            if (people.Count == 0)
+            {
+                return "";
+            }
+
+            // If there is at least one person in the list.
+            foreach (PersonModel p in people)
+            {
+                output += $"{p.Id}|";
+            }
+            // Remove the last pipe.
+            output = output.Substring(0, output.Length - 1);
+
+            return output;
+        }
+    }
+}
