@@ -17,7 +17,6 @@ C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\ref\TrackerUI.dll
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreatePrizeForm.resources
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTeamForm.resources
-C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTournament.resources
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.TournamentDashboardForm.resources
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\TrackerLibrary.dll
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\TrackerLibrary.pdb
@@ -63,3 +62,4 @@ C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\admin\Documents\GitHub\tournament_tracker_application\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTournamentForm.resources
