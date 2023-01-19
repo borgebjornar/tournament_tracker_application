@@ -86,6 +86,11 @@ namespace TrackerLibrary.DataAccess.TextHelpers
             return output;
         }
 
+        public static List<TournamentModel> ConvertToTournamentModels(this List<string> lines)
+        {
+            // id,TournamentName,EntryFee,(id|id|id - Entered Teams),(id|id|id - Prizes),(Rounds - id^id^id|id^id^id|id^id^id)
+        }
+
         // Save the list<string> to the text file.
         public static List<PersonModel> ConvertToPersonModels(this List<string> lines)
         {
